@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="swiper">
+    <text class="user-motto">每日一览</text>
+  </view>
+  <!-- <view class="menuBtn">
+    <button class="user-motto">自助点单</button>
+  </view> -->
+  <!-- <view class="list">
+    <text class="user-motto">自助点单</text>
+  </view> -->
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<!--pages/list/index.wxml-->
+<view class="list_page">
+    <view class="weui-cell_input">
+        <input 
+         class="weui-input" 
+         auto-focus 
+         placeholder="输入作者，名称" 
+         value='{{inputValue}}'
+         confirm-type='search'
+         bindtap="qryData" />
+      </view>
+<scroll-view class="scroll-content">
+    <view wx:for="{{poemList}}" wx:key="index" class="cell_view" bindtap="todetail">
+        <text>{{item.people}}</text>
+        <text>{{item.title}}</text>
+        <text>{{item.type}}</text>
+    </view>
+</scroll-view>
+</view>
+
+   

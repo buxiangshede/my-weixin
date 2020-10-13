@@ -1,0 +1,7 @@
+<!--pages/details/index.wxml-->
+<text>pages/details/index.wxml</text>
+<view>
+   <text>name</text>
+   <text>author</text>
+   <text>type</text>
+</view>
